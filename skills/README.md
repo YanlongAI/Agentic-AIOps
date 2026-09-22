@@ -1,6 +1,6 @@
-# 演示 Skill 素材
+# 开源 Skills
 
-与 `db/online.sql` 中 Skill 演示种子一一对应，便于界面上传或核对。
+可上传到平台的巡检、测评与处置技能。脚本包上传对应压缩包，文档型技能上传 `SKILL.md`。
 
 | 目录 | 类型 | 上传文件 |
 |------|------|----------|
@@ -13,4 +13,4 @@
 | `open-skill-alert-storm` | 纯文档 | `SKILL.md` |
 | `open-skill-firewall-ports` | 纯文档 | `SKILL.md` |
 
-脚本包源码来自 `agentic-core/skills/`；各目录内另附 `SKILL.md` 便于快速预览。
+各目录内附有 `SKILL.md`，说明适用场景与使用方式。
