@@ -8,7 +8,7 @@
 
 [![官网](https://img.shields.io/badge/官网-yanlong--ai.com-1f6feb)](https://www.yanlong-ai.com)
 [![立即体验](https://img.shields.io/badge/Demo-aiops.yanlong--ai.com-22c55e)](https://aiops.yanlong-ai.com)
-[![Agentic AIOps](https://img.shields.io/badge/Product-Agentic%20AIOps%20V4-0ea5e9)](https://www.yanlong-ai.com)
+[![Agentic AIOps](https://img.shields.io/badge/Product-Agentic%20AIOps%20V4.0.1-0ea5e9)](https://www.yanlong-ai.com)
 
 ## 产品界面
 
