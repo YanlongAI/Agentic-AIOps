@@ -2,7 +2,9 @@
 
 **炎龙智能 Agentic AIOps**
 
-**Agentic AIOps V4.0.1**。大模型驱动的多智能体协同运维平台，覆盖开发、运维与配置。把对话运维、巡检、根因分析、容量预测、告警处置和资产台账串成一条线。
+**V4.0.1 正式发布**：AI 智能体核心引擎全面升级，任务规划、执行与结果收敛同步优化。同等运维任务下响应更快、判断更准，Token 消耗更低，复杂对话的使用成本明显下降。任务规划模式完成 100 次 Chat 实测，任务完成率 100%，规划链路稳定可复现。
+
+大模型驱动的多智能体协同运维平台，覆盖开发、运维与配置。把对话运维、巡检、根因分析、容量预测、告警处置和资产台账串成一条线。
 
 [官网](https://www.yanlong-ai.com) · [立即体验](https://aiops.yanlong-ai.com) · [申请免费部署](https://www.yanlong-ai.com)
 
@@ -15,6 +17,24 @@
 **AI 天穹首页** — 值班总览、快捷入口、告警与待办
 
 <img src="img/screenshot-home.png" alt="Agentic AIOps 天穹首页" width="100%" />
+
+**AI ChatOps** — 选中主机后用自然语言排查。下面是一次「查 CPU 最高进程，并看它开放了哪些端口」的对话：先拆成任务，再给出进程、端口和结论。
+
+**拆任务** — 问题拆成查高占用进程、查该进程端口、汇总结论
+
+<img src="img/AIChatOps1.png" alt="AI ChatOps 任务列表" width="100%" />
+
+**查进程** — 列出持续占用最高的进程：进程名、PID、CPU、内存、运行用户和启动时间，并标出瞬时冲高、已经退出的进程
+
+<img src="img/AIChatOps2.png" alt="AI ChatOps 查询 CPU 占用最高的进程" width="100%" />
+
+**查端口** — 按该进程列出监听端口、协议、监听地址和用途
+
+<img src="img/AIChatOps3.png" alt="AI ChatOps 查询进程开放端口" width="100%" />
+
+**给结论** — 区分对外暴露和仅本机访问的端口，方便判断是否需要继续处理
+
+<img src="img/AIChatOps4.png" alt="AI ChatOps 端口结论" width="100%" />
 
 **AI 根因分析** — 告警归组、分析状态、一键分配与追问
 
